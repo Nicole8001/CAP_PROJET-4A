@@ -1,8 +1,8 @@
 .. highlight:: shell
 
-============
+====================================
 Guide installation Home Assistant
-============
+====================================
 
 Introduction
 ------------
@@ -11,7 +11,7 @@ Cette guide détaille le processus d'installation de Home Assistant sur une mach
 Nous commencerons par l'installation de VSCode, un éditeur de code, suivi par l'installation de Docker et enfin, nous installerons Home Assistant et explorerons ses fonctionnalités de base.
 
 Installation de VSCode
-------------
+------------------------
 Visual Studio Code (VSCode) est un éditeur de code léger, puissant et open-source, qui fournit des fonctionnalités avancées pour le développement. Suivez les étapes suivantes pour installer VSCode sur votre machine virtuelle :
 
 1. Téléchargez le fichier d'installation de VSCode depuis le site officiel : https://code.visualstudio.com/download
@@ -20,7 +20,7 @@ Visual Studio Code (VSCode) est un éditeur de code léger, puissant et open-sou
 4. Une fois installé, lancez VSCode pour vous assurer qu'il fonctionne correctement.
 
 Installation de Docker
-------------
+------------------------
 Docker permet de déployer des applications dans des conteneurs logiciels. Voici les étapes pour l'installer sur votre machine virtuelle en utilisant des lignes de commande Docker :
 
 - Si ce n’est pas encore fait, installer Docker sur votre machine via la ligne de commande :
@@ -61,7 +61,7 @@ Pour vérifier l'état du service Docker, utilisez la commande :
     sudo systemctl status docker
 
 Installation de Home Assistant
-------------
+------------------------------------
 Maintenant que Docker est installé et configuré, passons à l'installation de Home Assistant :
 
 Ouvrez un terminal dans VSCode ou accédez à la ligne de commande de votre système d'exploitation.
@@ -101,7 +101,7 @@ Lancez le conteneur Home Assistant avec la commande suivante :
     docker rm homeassistant
 
 Première prise en main
-------------
+------------------------
 Une fois Home Assistant installé, ouvrez un navigateur Web et accédez à son interface en utilisant l'adresse IP de votre machine virtuelle suivie du port 8123 :
 
 [http://localhost:8123/lovelace/default_view](http://localhost:8123/lovelace/default_view)
@@ -115,12 +115,12 @@ Vous avez désormais installé Home Assistant sur votre machine virtuelle en uti
 Explorez les fonctionnalités et les intégrations offertes par Home Assistant pour personnaliser votre expérience domotique. 
 Pour plus d'informations et d'aide, consultez la documentation officielle de Home Assistant et Docker.
 
-============
+====================================
 Prise en main d'une Raspberry Pi 
-============
+====================================
 
 Première utilisation d’une Raspberry Pi 
-------------
+------------------------------------------------
 En cas de difficultés à formater la carte SD afin de pouvoir flasher l’image de la raspberry pi, l’utilisation de MiniTool Partiton Wizard sera utile
 
 .. image:: images/minitool.png
@@ -143,7 +143,7 @@ Cliquez sur Save puis sur Ecrire comme sur l’image suivante :
 Une fois que c’est fait, débranchez la carte micro SD et rebranchez là
 
 Connexion en SSH
-------------
+------------------------
 Activez la connexion ssh afin de pouvoir se connecter à la Raspberry Pi à distance 
 Tuto suivi : https://www.raspberrypi.com/documentation/computers/remote-access.html 
 Après avoir branché un micro SD une autre fois un nouveau lecteur ‘boot’ apparaît sur l’ordinateur
@@ -186,7 +186,7 @@ Connexion réussie comme vous pouvez le voir sur l’image précédente
 Branchez votre câble USB Zigbee à la Raspberry Pi 
 
 Installation de Docker sur la carte Raspberry Pi 
-------------
+------------------------------------------------
 On va créer un conteneur docker avec Home Assistant, c’est la meilleure méthode à utiliser car ça nous permet de ne pas perdre les autres services de la carte Raspberry Pi, on va ajouter home assistant uniquement comme un plus pour cela suivez les étapes suivante : 
 Installez docker avec la commande suivante : 
 
@@ -246,7 +246,7 @@ Cliquez ensuite sur Aperçu et si vous avez bien suivi les étapes précédentes
   :alt: Alternative text
 
 Création d’une automatisation sur home assistant 
-------------
+------------------------------------------------------------
 Cliquez sur paramètres, automatisations et scènes, créer sur automatisations, créer une nouvelle automatisation
 voir l'image suivante 
 
@@ -289,9 +289,9 @@ Une alerte vous disant d’ouvrir les fenêtres si la température ou l’humidi
 
 
 
-============
+================================================
 Création d'un Module sur Home Assistant
-============
+================================================
 
 Pour créer un module simple, il faut juste suivre les étapes mentionnées sur le lien suivant: 
 Tutoriel suivi :https://www.hacf.fr/dev_tuto_1_integration/
