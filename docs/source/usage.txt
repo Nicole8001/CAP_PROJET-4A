@@ -294,7 +294,7 @@ Création d'un Module sur Home Assistant
 ============
 
 Pour créer un module simple, il faut juste suivre les étapes mentionnées sur le lien suivant: 
-Tutoriel suivi :https://www.hacf.fr/dev_tuto_1_integration/#:~:text=Il%20faut%20le%20transformer%20en,qui%20est%20un%20package%20Python
+Tutoriel suivi :https://www.hacf.fr/dev_tuto_1_integration/
 
 
 
