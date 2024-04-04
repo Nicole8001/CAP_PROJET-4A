@@ -115,25 +115,3 @@ Vous avez désormais installé Home Assistant sur votre machine virtuelle en uti
 Explorez les fonctionnalités et les intégrations offertes par Home Assistant pour personnaliser votre expérience domotique. 
 Pour plus d'informations et d'aide, consultez la documentation officielle de Home Assistant et Docker.
 
-
-
-================================================
-Création d'un Module sur Home Assistant
-================================================
-
-Pour créer un module simple, il faut juste suivre les étapes mentionnées sur le lien suivant: 
-Tutoriel suivi :https://www.hacf.fr/dev_tuto_1_integration/
-
-
-
-
-
-
-
-
-
-
-
-
-
-

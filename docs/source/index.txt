@@ -13,8 +13,8 @@ Welcome to CAP_PROJET-4A  documentation!
    readme
    installation
    usage
-   documentation
-   modules
+   prise_en_main
+   module
    contributing
    authors
    history
