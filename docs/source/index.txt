@@ -13,6 +13,7 @@ Welcome to CAP_PROJET-4A  documentation!
    readme
    installation
    usage
+   documentation
    modules
    contributing
    authors
