@@ -42,6 +42,9 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.coverage',
     'sphinx.ext.viewcode',
+    "sphinx.ext.autosectionlabel",
+    "sphinx.ext.githubpages",
+    
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -69,7 +72,7 @@ language = 'fr'
 exclude_patterns = []
 
 # The name of the Pygments (syntax highlighting) style to use.
-pygments_style = None
+pygments_style = "sphinx"
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -77,7 +80,7 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'alabaster'
+html_theme = 'sphinx_rtd_theme' # 'alabaster' - sphinx_rtd_theme
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -153,7 +156,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
     (master_doc, 'CAP_PROJET_4A', 'CAP_PROJET_4A Documentation',
-     author, 'CAP_PROJET_4A', 'One line description of project.',
+     author, 'HORIZON', 'One line description of project.',
      'Miscellaneous'),
 ]
 

@@ -1,4 +1,1 @@
-# CAP_-4A
-
-
-test
+.. include:: ../README.rst

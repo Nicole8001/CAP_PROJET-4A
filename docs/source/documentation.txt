@@ -1,0 +1,20 @@
+Bienvenue dans la documentation Home Assistant !
+================================================
+
+.. toctree ::
+   :profondeur maximale : 2
+   :légende : Contenu :
+
+   lis-moi
+   installation
+   usage
+   modules
+   contribuant
+   auteurs
+   histoire
+
+Indices et tableaux
+==================
+* :ref:`genindex`
+* :réf:`modindex`
+* :ref:`recherche`
