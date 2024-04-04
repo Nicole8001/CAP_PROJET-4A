@@ -1,0 +1,8 @@
+.. highlight:: shell
+
+================================================
+Création d'un Module sur Home Assistant
+================================================
+
+Pour créer un module simple, il faut juste suivre les étapes mentionnées sur le lien suivant: 
+Tutoriel suivi :https://www.hacf.fr/dev_tuto_1_integration/
