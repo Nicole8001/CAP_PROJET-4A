@@ -20,7 +20,7 @@ You can either clone the public repository:
 
 .. code-block:: console
 
-    $ git clone https://github.com/pcourbin/ecodevices_rt2.git
+    $ git clone git://github.com/pcourbin/ecodevices_rt2
 
 Or download the `tarball`_:
 
@@ -40,6 +40,6 @@ Once you have a copy of the source, you can install it with in your `Home Assist
 7. In the HA UI go to "Configuration" -> "Integrations" click "+" and search for "Ecodevices RT2"
 
 .. _Github repo: https://github.com/pcourbin/ecodevices_rt2
-.. _tarball: https://github.com/pcourbin/ecodevices_rt2/tarball/master 
+.. _tarball: https://github.com/pcourbin/ecodevices_rt2/tarball/master
 .. _`Home Assistant`: https://www.home-assistant.io/
 .. _`HACS`: https://hacs.xyz
